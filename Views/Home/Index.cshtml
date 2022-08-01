@@ -1,0 +1,328 @@
+﻿@{
+    ViewData["Name"] = "Matheus";
+    ViewData["Email"] = "contato@mxtheuz.com.br";
+    ViewData["Site"] = "https://mxtheuz.com.br";
+}
+<header id="header" class="flex">
+    <a href="mxtheuz.com.br/Home" class="header-logo">Mxtheuz</a>
+    <nav class="header-nav flex">
+        <a href="#about" class="header-nav_link">Sobre mim</a>
+        <a href="#skills" class="header-nav_link">Skills</a>
+        <a href="#port" class="header-nav_link">Projetos</a>
+        <a href="#contact" class="header-nav_link">Contato</a>
+    </nav>
+    <a href="https://github.com/ofmxtheuuz" class="github-link">
+        <i class="bi bi-github"></i> Github
+    </a>
+</header>
+<main id="main">
+    <section class="main-sobremim" id="about">
+        <div class="main-sobremim_primary flex">
+            <div class="main-sobremim_primary--division animate__animated animate__backInLeft">
+                <h2 class="main-sobremim_primary--title">
+                    Me chamo @ViewData["Name"] =)
+                </h2>
+                <p class="main-sobremim_primary--paragraph">
+                    Eai, galera! Como não podemos nos conhecer pessoalmente, aqui vai um pouco sobre mim... Mexo com
+                    tecnologia há 2 anos, já desenvolvi muitas coisas entre muitas plataformas, um ambiente mais
+                    louco que o outro! Já desenvolvi desbloqueios para consoles, fiz aplicações desktop e webapps,
+                    quebrei a cabeça organizando um servidor Linux inteiro! Mas meu foco principal é desenvolvimento
+                    Full-Stack com PHP, ASP.NET Core MVC e Banco de Dados, Aplicações no Console e Desktop com .NET
+                    Framework, e em muitos casos Aplicações Mobile.
+                </p>
+            </div>
+            <div class="main-sobremim_secondary">
+                <img src="https://mxtheuz.com.br/View/wwwroot/images/miya.jpg" alt="Foto Perfil" width="350" height="350"
+                     id="main-sobremim_primary--perfil">
+            </div>
+        </div>
+        <div id="buttons">
+            <div class="main-sobremim_button">
+                <a href="#contact" class="main-sobremim_button--btn__link animate__animated animate__zoomInDown">
+                    Contato
+                </a>
+            </div>
+            <div class="main-sobremim_button">
+                <a href="https://mxtheuz.com.br/C.pdf"
+                   class="main-sobremim_button--btn__link-second animate__animated animate__zoomInDown">
+                    Curriculo <i class="bi bi-box-arrow-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <svg xmlns="http://www.w3.org/2000/svg" ViewBox="0 0 1440 320">
+        <path fill="#4F22F2" fill-opacity="1"
+              d="M0,32L34.3,26.7C68.6,21,137,11,206,26.7C274.3,43,343,85,411,101.3C480,117,549,107,617,85.3C685.7,64,754,32,823,53.3C891.4,75,960,149,1029,160C1097.1,171,1166,117,1234,101.3C1302.9,85,1371,107,1406,117.3L1440,128L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
+        </path>
+    </svg>
+
+    <section class="skill" id="skills">
+        <!-- ENGLOBA TODA A PARTE DE SKILL -->
+        <h1 class="skill-title">Minhas Skills</h1>
+        <div class="skill-all">
+            <img src="https://mxtheuz.com.br/View/wwwroot/images/skills.png" alt="Skills Image" width="500" height="400" id="skills-image">
+            <div class="skill-first">
+                <!-- PRIMEIRAS 3 LINGUAGENSL -->
+
+                <div class="skill-first_block">
+                    <!-- CADA LINGUAGEM -->
+                    <h2 class="skill-first_block--title">C#</h2>
+                    <span class="skill-first_block--level">Nível: Intermediário</span>
+                    <p class="skill-first_block--description">
+                        Desenvolvimento WEB, Desenvolvimento Desktop Apps,
+                        Desenvolvimento no console, Banco de Dados MySQL, Pouco
+                        código, .NET Core, .NET Framework
+                    </p>
+                </div>
+
+                <div class="skill-first_block">
+                    <!-- CADA LINGUAGEM -->
+                    <h2 class="skill-first_block--title">HTML</h2>
+                    <span class="skill-first_block--level">Nível: Alto</span>
+                    <p class="skill-first_block--description">
+                        Divisões com padrões próprios, formulários POST e GET,
+                        HTML avançado sem repetição de código
+                    </p>
+                </div>
+
+                <div class="skill-first_block">
+                    <!-- CADA LINGUAGEM -->
+                    <h2 class="skill-first_block--title">CSS</h2>
+                    <span class="skill-first_block--level">Nível: Alto</span>
+                    <p class="skill-first_block--description">
+                        Flex, GRID, Herança, Child, Código limpo com
+                        variáveis, Cores distintas, Fontes modernas, Media Query para adaptação Mobile
+                    </p>
+                </div>
+
+                <div class="skill-first_block">
+                    <!-- CADA LINGUAGEM -->
+                    <h2 class="skill-first_block--title">JavaScript</h2>
+                    <span class="skill-first_block--level">Nível: Intermediário</span>
+                    <p class="skill-first_block--description">
+                        MySQL, Desenvolvimento Desktop com ElectronJS,
+                        Verificações Aprofundadas, AJAX, NodeJS, ReactJS,
+                        Angular, JQuery
+                    </p>
+                </div>
+            </div>
+            <div class="skill-second">
+                <div class="skill-first_block">
+                    <!-- CADA LINGUAGEM -->
+                    <h2 class="skill-first_block--title">PHP</h2>
+                    <span class="skill-first_block--level">Nível: Intermediário/Alto</span>
+                    <p class="skill-first_block--description">
+                        Desenvolvimento WEB, Banco de Dados MySQL,Consulta de
+                        APIs diversas, JWT (Json Web Token), PHPMailer (E-mails), Integração com SDKs de pagamento
+                        como Mercado Pago, Orientação a Objetos, Discord
+                    </p>
+                </div>
+
+
+                <div class="skill-first_block">
+                    <!-- CADA LINGUAGEM -->
+                    <h2 class="skill-first_block--title">Go</h2>
+                    <span class="skill-first_block--level">Nível: Básico</span>
+                    <p class="skill-first_block--description">
+                        Desenvolvimento WEB, Desenvolvimento Desktop,
+                        Banco de Dados, Structs (Orientação a Objetos)
+                    </p>
+                </div>
+
+                <div class="skill-first_block">
+                    <!-- CADA LINGUAGEM -->
+                    <h2 class="skill-first_block--title">Elixir</h2>
+                    <span class="skill-first_block--level">Nível: Iniciante</span>
+                    <p class="skill-first_block--description">
+                        Não tem muito o que falar aqui, estou iniciando ainda
+                        :D
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="port">
+        <h1 class="project-title">
+            Projetos
+        </h1>
+        <div class="projetos">
+            <div class="projetos-project">
+                <span class="projetos-project_title">
+                    Henrique Menu
+                </span>
+                <img src="https://mxtheuz.com.br/View/wwwroot/images/henriquemenu.png" alt="" width="200" height="100"
+                     class="projetos-project_image">
+                <span class="projetos-project_type">
+                    Webapp
+                </span>
+                <a href="https://henriquemenu.com">
+                    <button class="projetos-project_button">
+                        henriquemenu.com
+                    </button>
+                </a>
+                <span class="projetos-project_date">
+                    Desenvolvido em 2021
+                </span>
+            </div>
+
+
+            <div class="projetos-project">
+                <span class="projetos-project_title">
+                    Henrique Menu Injector
+                </span>
+                <img src="https://mxtheuz.com.br/View/wwwroot/images/henriquemenuinjector.png" alt="" width="200" height="100"
+                     class="projetos-project_image">
+                <span class="projetos-project_type">
+                    Desktop
+                </span>
+                <a href="https://henriquemenu.com">
+                    <button class="projetos-project_button">
+                        henriquemenu.com
+                    </button>
+                </a>
+                <span class="projetos-project_date">
+                    Desenvolvido em 2021
+                </span>
+            </div>
+
+
+            <div class="projetos-project">
+                <span class="projetos-project_title">
+                    Site Pessoal
+                </span>
+                <img src="https://mxtheuz.com.br/View/wwwroot/images/sitepessoal.png" alt="" width="200" height="100"
+                     class="projetos-project_image">
+                <span class="projetos-project_type">
+                    Webapp
+                </span>
+                <a href="https://mxtheuz.com.br">
+                    <button class="projetos-project_button">
+                        mxtheuz.com.br
+                    </button>
+                </a>
+                <span class="projetos-project_date">
+                    Desenvolvido em 2022
+                </span>
+            </div>
+
+
+
+            <div class="projetos-project">
+                <span class="projetos-project_title">
+                    Med Life
+                </span>
+                <img src="https://mxtheuz.com.br/View/wwwroot/images/medlife.png" alt="" width="200" height="100"
+                     class="projetos-project_image">
+                <span class="projetos-project_type">
+                    Webapp
+                </span>
+                <a href="https://medlife7l.com">
+                    <button class="projetos-project_button">
+                        medlife7l.com
+                    </button>
+                </a>
+                <span class="projetos-project_date">
+                    Desenvolvido em 2022
+                </span>
+            </div>
+
+
+            <div class="projetos-project">
+                <span class="projetos-project_title">
+                    Papoularia
+                </span>
+                <img src="https://mxtheuz.com.br/View/wwwroot/images/papoularia.png" alt="" width="200" height="100"
+                     class="projetos-project_image">
+                <span class="projetos-project_type">
+                    Webapp
+                </span>
+                <a href="https://papoularia.com">
+                    <button class="projetos-project_button">
+                        papoularia.com
+                    </button>
+                </a>
+                <span class="projetos-project_date">
+                    Desenvolvido em 2022
+                </span>
+            </div>
+
+            <div class="projetos-project">
+                <span class="projetos-project_title">
+                    Piccoli Dev
+                </span>
+                <img src="https://mxtheuz.com.br/View/wwwroot/images/piccolidev.png" alt="" width="200" height="100"
+                     class="projetos-project_image">
+                <span class="projetos-project_type">
+                    Webapp
+                </span>
+                <a href="https://piccolidev.com">
+                    <button class="projetos-project_button">
+                        piccolidev.com
+                    </button>
+                </a>
+                <span class="projetos-project_date">
+                    Desenvolvido em 2022
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="suporte" id="contact">
+        <h1 class="suporte-title">
+            Gostou do meu trabalho?
+        </h1>
+        <p class="suporte-subtitle">
+            Nossa equipe de atendimento estará disponível para ajudar quem for preciso!
+        </p>
+
+        <div class="suporte-social">
+
+            <img src="https://mxtheuz.com.br/View/wwwroot/images/suporte.png" alt="Suporte" width="700" height="350" id="image-suport">
+
+            <div class="suporte-social_infos">
+
+                <div class="suporte-social_infos--div">
+                    <a href="https://wa.me/+5549991256304" class="suporte-social_infos--div__link">
+                        <i class="bi bi-whatsapp"></i>
+                        <span> Whatsapp</span>
+                    </a>
+                </div>
+
+                <div class="suporte-social_infos--div">
+                    <a href="https://discord.com/users/394866819866820610" class="suporte-social_infos--div__link">
+                        <i class="bi bi-discord"></i>
+                        <span> Discord</span>
+                    </a>
+                </div>
+
+                <div class="suporte-social_infos--div">
+                    <a href="https://t.me/ofmxtheuz" class="suporte-social_infos--div__link">
+                        <i class="bi bi-telegram"></i>
+                        <span> Telegram</span>
+                    </a>
+                </div>
+
+                <div class="suporte-social_infos--div">
+                    <a href="mailto:@ViewData["Email"]" class="suporte-social_infos--div__link">
+                        <i class="bi bi-envelope"></i>
+                        <span> E-mail</span>
+                    </a>
+                </div>
+
+                <div class="suporte-social_infos--div">
+                    <a href="https://github.com/ofmxtheuuz" class="suporte-social_infos--div__link">
+                        <i class="bi bi-github"></i>
+                        <span> Github</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+</main>
