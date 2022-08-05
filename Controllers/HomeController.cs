@@ -20,7 +20,7 @@ namespace mxtheuz.com.br.Controllers
 
         public IActionResult Index()
         {
-            ViewData["Title"] = "Home | Mxtheuz";
+            ViewData["Title"] = "Início | Mxtheuz";
             return View();
         }
 
