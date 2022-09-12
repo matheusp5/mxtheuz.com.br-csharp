@@ -18,6 +18,7 @@ namespace mxtheuz.com.br.Controllers
             _logger = logger;
         }
 
+        // Action principal "Home Controller"
         public IActionResult Index()
         {
             ViewData["Title"] = "Início | Mxtheuz";
