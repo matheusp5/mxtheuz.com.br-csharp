@@ -1,4 +1,4 @@
-# mxtheuz.com.br maked with C#
+# mxtheuz.com.br with C#
 
 <a href="https://mxtheuz.com.br">My Site</a>
  was created with PHP and I maked another version but with C#<br>
