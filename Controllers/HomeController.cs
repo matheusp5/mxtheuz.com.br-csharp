@@ -19,6 +19,7 @@ namespace mxtheuz.com.br.Controllers
         }
 
         // Action principal "Home Controller"
+        [HttpGet("/home")]
         public IActionResult Index()
         {
             ViewData["Title"] = "Início | Mxtheuz";
