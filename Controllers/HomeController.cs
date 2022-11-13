@@ -18,7 +18,7 @@ namespace mxtheuz.com.br.Controllers
             _logger = logger;
         }
 
-        // Action principal "Home Controller"
+        // Action principal "Home Controller"...
         [HttpGet("/home")]
         public IActionResult Index()
         {
