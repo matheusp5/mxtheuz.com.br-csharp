@@ -11,14 +11,6 @@ namespace mxtheuz.com.br.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
-        // Action principal "Home Controller"...
         [HttpGet("/home")]
         public IActionResult Index()
         {
